@@ -8,7 +8,7 @@
     <artifactId>glassfish4-clickstart</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>A Simple Glassfish 4 Webapp for CloudBees</name>
+    <name>A Simple Java EE 7 / Glassfish 4 Webapp for CloudBees</name>
     <inceptionYear>2013</inceptionYear>
 
     <dependencies>
@@ -19,9 +19,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <version>7.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
